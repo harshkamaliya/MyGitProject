@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="@dimen/standard_padding"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Title"
+            android:text="Title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text"
+            android:text="Created_Date"/>
+        <TextView
+            android:id="@+id/created_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text"
+            android:textStyle="bold|italic"
+            android:text="09-11-12"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text"
+            android:text="Closed_Date"/>
+        <TextView
+            android:id="@+id/closed_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text"
+            android:textStyle="bold|italic"
+            android:text="09-11-12"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text"
+            android:text="Username"/>
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text"
+            android:textStyle="bold|italic"
+            android:text="by Adam"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp">
+        </View>
+
+    </LinearLayout>
+
+</LinearLayout>
